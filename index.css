@@ -1,0 +1,16 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+#navbutton {
+	color: white;
+	font-family: georgia;
+}
+.carousel-caption {
+    max-width: 100%;
+    width:100%;
+    left: 0;
+    font-family: Garamond, serif;
+    color: #d9cccd;
+}
