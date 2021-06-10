@@ -11,6 +11,22 @@
     max-width: 100%;
     width:100%;
     left: 0;
-    font-family: Garamond, serif;
     color: #d9cccd;
+}
+.imgfooter {
+	width: 100px;
+	height: 100px;
+}
+.jumbotron {
+	font-family: Garamond, serif;
+}
+#footer {
+	color: #e8c66f;
+	width: 100%;
+	bottom: 0;
+	background-image: url('images/clouds.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
 }

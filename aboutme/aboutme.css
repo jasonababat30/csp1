@@ -3,3 +3,47 @@
 	margin: 0;
 	padding: 0;
 }
+body {
+	background-image: url('../images/beach.jpg');
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    background-position: center center;
+	    background-attachment: fixed;
+	    color: #f0beb6;
+}
+#footer {
+	color: #e8c66f;
+	width: 100%;
+	bottom: 0;
+	background-image: url('../images/clouds.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+.imgfooter {
+	width: 100px;
+	height: 100px;
+}
+.image {
+	width: 200px;
+	height: 200px;
+}
+.jumbotron {
+	padding: 75px;
+	background-image: url('../images/mosaic.jpg');
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    background-position: center center;
+	    background-attachment: fixed;
+	color: black;
+	font-family: Georgia;
+
+}
+#cardcontent {
+	text-align: center;
+}
+#card {
+	background-image: url('../images/yellow.jpg');
+	border-color: #3e8046;
+}

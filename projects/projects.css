@@ -23,3 +23,22 @@ body {
 	background-image: url('../images/yellow.jpg');
 	border-color: #3e8046;
 }
+#footer {
+	color: #e8c66f;
+	width: 100%;
+	bottom: 0;
+	background-image: url('../images/clouds.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+.imgfooter {
+	width: 100px;
+	height: 100px;
+}
+.contentsection {
+	margin-top: 75px;
+	text-align: center;
+	font-family: Georgia;
+}

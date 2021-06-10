@@ -4,5 +4,35 @@
 	padding: 0;
 }
 body { 
-    padding-top: 5%; 
+    background-image: url('../images/snow-mountain.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.googlemap {
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  width: 100%;
+	  height: 450px;
+}
+#contentsection {
+	margin-top: 75px;
+	font-family: Garamond, serif;
+}
+#footer {
+	color: #e8c66f;
+	width: 100%;
+	bottom: 0;
+	background-image: url('../images/clouds.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+.imgfooter {
+	width: 100px;
+	height: 100px;
 }

@@ -12,31 +12,26 @@
 	    <link rel="stylesheet" type="text/css" href="projects.css">
 	<title>PROJECTS - Capstone Project</title>
 </head>
-<body>
+<body id="projects">
 	<!-- NavBar Component -->
 	<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color:#c49329">
-	  <a class="navbar-brand" href="#"><img src="../images/gold.jpeg" class="rounded-circle" width="50" height="50" class="d-inline-block align-top" alt="Main Logo"></a>
+	  <a class="navbar-brand" href="../index.html"><img src="../images/gold.jpeg" class="rounded-circle" width="50" height="50" class="d-inline-block align-top" alt="Main Logo"></a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
 	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 	    <div class="navbar-nav">
-	      <a class="nav-link active" href="#" id="navbutton">Home</a>
-	      <a class="nav-link" href="#" id="navbutton">About</a>
-	      <a class="nav-link" href="#" id="navbutton">Projects<span class="sr-only">(current)</span></a>
-	      <a class="nav-link" href="#" id="navbutton">Contact</a>
+	      <a class="nav-link active" href="../index.html" id="navbutton" target="_blank">Home</a>
+	      <a class="nav-link" href="../aboutme/aboutme.html" id="navbutton" target="_blank">About</a>
+	      <a class="nav-link" href="#projects" id="navbutton">Projects<span class="sr-only">(current)</span></a>
+	      <a class="nav-link" href="../contact/contact.html" id="navbutton" target="_blank">Contact</a>
 	    </div>
 	  </div>
 	</nav>
 
-	<!-- Jumbotron -->
-	<div class="jumbotron jumbotron-fluid">
-	  <div class="container">
-	    <h1 class="display-3 p-5" id="heading">Here are the Capstone Projects that I've done so far:</h1>
-	  </div>
-	</div>
-
 	<!-- Card Component -->
+	<section class="contentsection">
+	<h1>Here are the Capstone Projects</h1>
 	<div class="container-fluid">
 		<div class="row justify-content-center">
 			
@@ -46,7 +41,7 @@
 			  <div class="card-body">
 			    <h5 class="card-title">Capstone 01</h5>
 			    <p class="card-text">The Foundation of my web-developing skills.</p>
-			    <a href="#" class="btn btn-primary">See Project 1</a>
+			    <a href="../index.html" class="btn btn-primary">See Project 1</a>
 			  </div>
 			</div>
 
@@ -70,9 +65,40 @@
 			  </div>
 			</div>
 		</div>
-	</div>	
+	</div>
+	</section>	
 	
-
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="container-fluid">
+			<div class="d-flex flex-md-row justify-content-between p-3">
+				<div>
+					<img src="../images/gold.jpeg" class="imgfooter img-fluid rounded-circle">
+				</div>
+				<div>
+					<h4>&#169 Copyright 2021</h4>
+					<div class="d-flex flex-row justify-content-center">
+						<div>
+							<h5>All Rights Reserved</h5>
+						</div>
+					</div>
+				</div>
+				<div>Follow Me
+					<div class="d-flex flex-row justify-content-between">
+						<div>
+							<i class="fab fa-facebook"></i>
+						</div>
+						<div>
+							<i class="fab fa-twitter"></i>
+						</div>
+						<div>
+							<i class="fab fa-reddit"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 	<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
 	    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
