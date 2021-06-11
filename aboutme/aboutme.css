@@ -46,4 +46,5 @@ body {
 #card {
 	background-image: url('../images/yellow.jpg');
 	border-color: #3e8046;
+	color: black;
 }
