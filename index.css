@@ -19,14 +19,15 @@
 }
 .jumbotron {
 	font-family: Garamond, serif;
+	height: 100%
 }
 #footer {
 	color: #e8c66f;
 	width: 100%;
+	height: auto;
 	bottom: 0;
 	background-image: url('images/clouds.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-attachment: fixed;
 }

@@ -38,7 +38,7 @@ body {
 	    background-attachment: fixed;
 	color: black;
 	font-family: Georgia;
-
+	width: 100%;
 }
 #cardcontent {
 	text-align: center;
